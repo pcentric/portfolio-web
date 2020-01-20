@@ -1,0 +1,69 @@
+/* Resume Page */
+
+.resume-left-col {
+  width: 100vw;
+  height: 240vh;
+  margin-top: -5rem;
+  background-image: url("https://cdn.wallpapersafari.com/36/58/kvxoEa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+    padding: 2em;
+    border: 2px solid black;
+    border-radius: 2em;
+  }
+  @media (max-width:1000px){
+    .resume-left-col {
+      width: 100vw;
+      height: 230vh;
+      margin-top: -5rem;
+      background-image: url("https://cdn.wallpapersafari.com/36/58/kvxoEa.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+        padding: 2em;
+        border: 2px solid black;
+        border-radius: 2em;
+      }
+      
+  }
+  .resume-left-col h2{
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(51, 0, 119));
+    -webkit-background-clip: text;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-text-fill-color: transparent;
+  }
+  .resume-left-col h4 {
+    font-size: 24px;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.733), rgb(0, 113, 128));
+    -webkit-background-clip: text;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-fill-color: transparent;
+  }
+  .priyanshuIm {
+    background: linear-gradient(
+      125deg,
+      rgb(104, 109, 224),
+      rgb(13, 99, 139),
+      rgb(19, 154, 167)
+    );
+    background-size: 700%;
+    animation: bganimation 15s infinite;
+    border: 2px dotted rgb(0, 0, 0);
+    height: 250px;
+    border-radius: 200px;
+    transition: 0.5s;
+  }
+  @keyframes bganimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
+  

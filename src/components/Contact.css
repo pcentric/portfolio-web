@@ -1,0 +1,182 @@
+/* Contacts CSS */
+@import url("https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple");
+
+.contact-body {
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  margin-top: -5rem;
+  background-image: url("http://www.techandall.com/wp-content/uploads/2013/10/techandall_wallpaper_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  margin-top: 8rem !important;
+  background: white;
+  background-size: 1000%;
+  color: black;
+  border: 3px solid #000000;
+  border-radius: 32px;
+}
+
+.cardBox {
+  perspective: 500px;
+  margin: 20px;
+  height: 100px;
+  display: flex;
+  padding-left: 12rem;
+  padding-top: 3rem;
+}
+.card {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: blue;
+  transform-style: preserve-3d;
+  transition: 0.6s ease;
+  border-radius: 5em;
+}
+.Priyanshu {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: rgb(255, 255, 255);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  top: 12px;
+  left: 18px;
+  width: 150px;
+  height: 150px;
+  backface-visibility: hidden;
+}
+.card-front {
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.card-back {
+  font-family: "Audrey", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+h3 {
+  background: -webkit-linear-gradient(rgba(3, 9, 92, 0.733), rgb(0, 113, 128));
+  -webkit-background-clip: text;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", "Franklin Gothic Medium",
+    "Arial Narrow", Arial, sans-serif;
+  -webkit-text-fill-color: transparent;
+}
+.card-back,
+p {
+  background: -webkit-linear-gradient(rgba(3, 9, 92, 0.733), rgb(0, 113, 128));
+  -webkit-background-clip: text;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", "Franklin Gothic Medium",
+    "Arial Narrow", Arial, sans-serif;
+  -webkit-text-fill-color: transparent;
+}
+.cardBox:hover .card {
+  transform: rotateY(180deg);
+}
+.card-back {
+  transform: rotateY(180deg);
+}
+.red-title {
+  margin: 24px 0 0.2em !important;
+  font-family: "Bungee Shade", cursive !important;
+  text-shadow: 4px 4px 4px #aaa !important;
+  line-height: 1em !important;
+}
+.contact-grid hr {
+  border-top: 5px groove blueviolet;
+  width: 50%;
+  margin: auto;
+}
+.contact-List i {
+  font-size: 66px;
+  padding-right: 4rem;
+}
+.contact-List {
+  margin-top: 4rem !important;
+  border: 3px solid rgb(102, 5, 94);
+  border-radius: 32px;
+  text-decoration: underline;
+  background-image: url("https://www.vox360.com/wp-content/uploads/2019/05/Website-Background-Web.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 8rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.no {
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .contact-body {
+    margin: auto;
+    overflow: scroll;
+    background-image: url("http://www.techandall.com/wp-content/uploads/2013/10/techandall_wallpaper_2.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    width: 100vw !important;
+    height: 105vh !important;
+    margin-top: -2rem !important;
+    border-radius: 2em;
+  }
+
+  .IMPR {
+    display: none;
+  }
+  .card-front {
+    padding-right: -20rem !important;
+    background-image: url("https://miraculoussoft.com/wp-content/uploads/2019/09/wp-programmer.gif") !important;
+    background-repeat: no-repeat;
+    background-size: contain !important;
+  }
+  .Priyanshu {
+    margin-left: -10rem;
+  }
+  .contact-grid {
+    height: 570px !important;
+  }
+  .red-title {
+    margin-top: 2rem !important;
+    border: 3px solid rgb(102, 5, 94);
+    border-radius: 32px;
+    background-color: rgba(132, 151, 161, 0.698);
+  }
+  .contact-grid hr {
+    display: none;
+  }
+  .contact-List i {
+    font-size: 60px;
+    margin-left: -8rem !important;
+  }
+  .contact-List {
+    margin-top: 4rem !important;
+    border: 3px solid rgb(102, 5, 94);
+    border-radius: 32px;
+    text-decoration: underline;
+    background-image: url("https://www.vox360.com/wp-content/uploads/2019/05/Website-Background-Web.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -2rem !important;
+    margin-right: -2.5rem !important;
+    margin-bottom: 3rem !important;
+  }
+}
