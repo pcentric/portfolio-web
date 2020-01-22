@@ -1,31 +1,41 @@
-
 .projects-grid-2 {
-
-    padding-left: 10rem;
-    
+  padding-left: 10rem;
+}
+.card-1,
+.card-2,
+.card-3 {
+  width: 30rem !important;
+  float: left;
+  height: 40rem !important;
+  border-radius: 0.9rem !important;
+  margin-top: 5rem !important;
+  margin-left: 5rem !important;
+  box-shadow: 1px 1px 20px -5px #0000009a !important;
+}
+@media screen and (max-width: 1000px) {
+  .projects-grid-2 {
+    margin: auto !important;
   }
-  .card-1 , .card-2 , .card-3 {
-    width: 30rem !important;
-    float: left;
-    height: 40rem !important;
+  .card-1,
+  .card-2,
+  .card-3 {
+    width: 68% !important;
+    height: 30% !important;
     border-radius: 0.9rem !important;
-    margin-top: 5rem !important;
-    margin-left: 5rem !important;
+    margin-left: -9rem !important;
     box-shadow: 1px 1px 20px -5px #0000009a !important;
   }
-  @media(max-width: 1024px){
-    .projects-grid-2 {
-
-      margin-left:-12rem !important;
-      
-    }
-    .card-1 , .card-2 , .card-3 {
-      width: 20rem !important;
-    float: left;
-    height: 52rem !important;
-    border-radius: 0.9rem !important;
-    margin-top: 5rem !important;
-    margin-left: 5rem !important;
-    box-shadow: 1px 1px 20px -5px #0000009a !important;
-    }
+}
+@media screen and (max-width: 880px) {
+  .projects-grid-2 {
+    margin: auto !important;
   }
+  .card-1,
+  .card-2,
+  .card-3 {
+    width:auto!important;
+    height: auto !important;
+    border-radius: 0.9rem !important;
+    box-shadow: 1px 1px 20px -5px #0000009a !important;
+  }
+}

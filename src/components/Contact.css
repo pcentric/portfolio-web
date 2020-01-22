@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple");
 
 .contact-body {
-  margin: auto;
   width: 100vw;
   height: 100vh;
   margin-top: -5rem;
@@ -99,7 +98,7 @@ p {
   margin: 24px 0 0.2em !important;
   font-family: "Bungee Shade", cursive !important;
   text-shadow: 4px 4px 4px #aaa !important;
-  line-height: 1em !important;
+  line-height: none !important;
 }
 .contact-grid hr {
   border-top: 5px groove blueviolet;
@@ -107,76 +106,84 @@ p {
   margin: auto;
 }
 .contact-List i {
-  font-size: 66px;
-  padding-right: 4rem;
+  font-size: 60px;
+  padding-right: 10rem;
+}
+.contact-List p {
+  font-size: 30px;
+  padding-left: 5rem !important;
+  line-height: none;
 }
 .contact-List {
   margin-top: 4rem !important;
+  margin: auto;
+  width: 80% !important;
   border: 3px solid rgb(102, 5, 94);
   border-radius: 32px;
   text-decoration: underline;
   background-image: url("https://www.vox360.com/wp-content/uploads/2019/05/Website-Background-Web.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-left: 8rem !important;
   padding-bottom: 3rem !important;
 }
-
+.introduction {
+  font-size: 20px !important  ;
+  line-height: none !important;
+}
 .no {
   cursor: pointer;
 }
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .contact-body {
-    margin: auto;
+    width: auto;
+    height: 110% !important;
+    background-image: url("http://www.techandall.com/wp-content/uploads/2013/10/techandall_wallpaper_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: scroll;
-    background-image: url("http://www.techandall.com/wp-content/uploads/2013/10/techandall_wallpaper_2.jpg") !important;
-    background-repeat: no-repeat;
-    background-size: cover !important;
-    width: 100vw !important;
-    height: 105vh !important;
-    margin-top: -2rem !important;
-    border-radius: 2em;
-  }
-
-  .IMPR {
-    display: none;
-  }
-  .card-front {
-    padding-right: -20rem !important;
-    background-image: url("https://miraculoussoft.com/wp-content/uploads/2019/09/wp-programmer.gif") !important;
-    background-repeat: no-repeat;
-    background-size: contain !important;
-  }
-  .Priyanshu {
-    margin-left: -10rem;
   }
   .contact-grid {
-    height: 570px !important;
+    width: 90%;
+    height: auto !important;
   }
-  .red-title {
-    margin-top: 2rem !important;
-    border: 3px solid rgb(102, 5, 94);
-    border-radius: 32px;
-    background-color: rgba(132, 151, 161, 0.698);
-  }
+
   .contact-grid hr {
     display: none;
   }
-  .contact-List i {
-    font-size: 60px;
-    margin-left: -8rem !important;
+  .IMPR {
+    display: none;
   }
-  .contact-List {
-    margin-top: 4rem !important;
-    border: 3px solid rgb(102, 5, 94);
-    border-radius: 32px;
-    text-decoration: underline;
-    background-image: url("https://www.vox360.com/wp-content/uploads/2019/05/Website-Background-Web.jpg");
+  .cardBox {
+    margin: auto;
+    padding-left: 6rem ;
+    padding-top: 3rem;
+  }
+  .card-front {
+    background-image: url("https://miraculoussoft.com/wp-content/uploads/2019/09/wp-programmer.gif") !important;
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: -2rem !important;
-    margin-right: -2.5rem !important;
-    margin-bottom: 3rem !important;
+    background-size: cover !important;
+  }
+  .Priyanshu {
+   width: auto;
+   height: auto !important;
+  }
+  
+  .contact-List,
+  p {
+    text-align: center !important;
+  }
+  contact-List,
+  i {
+    display: none !important;
+  }
+  .introduction {
+    font-size: 20px !important  ;
+    line-height: none !important;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .contact-List {
+    width: 50% !important;
   }
 }

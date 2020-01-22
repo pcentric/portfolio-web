@@ -37,8 +37,8 @@ function App() {
           </Navigation>
         </Header>
 
-        <Drawer title="Menu">
-          <Navigation>
+        <Drawer  title="Menu">
+          <Navigation >
             <Link to="/">
               Home&nbsp;<i class="fa fa-home" aria-hidden="true" ></i>
             </Link>

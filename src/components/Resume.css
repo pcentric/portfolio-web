@@ -1,67 +1,98 @@
 /* Resume Page */
-
 .resume-left-col {
   width: 100vw;
   height: 240vh;
   background-image: url("https://cdn.wallpapersafari.com/36/58/kvxoEa.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 2em;
+  border: 2px solid black;
+  border-radius: 2em;
+}
+.resume-right-col {
+  width: 100vw;
+  padding: 2em;
+  border-radius: 2em;
+}
+
+.resume-left-col h2 {
+  font-size: 50px;
+  background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(51, 0, 119));
+  -webkit-background-clip: text;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-text-fill-color: transparent;
+}
+.resume-left-col h4 {
+  font-size: 24px;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.733), rgb(0, 113, 128));
+  -webkit-background-clip: text;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", "Franklin Gothic Medium",
+    "Arial Narrow", Arial, sans-serif;
+  -webkit-text-fill-color: transparent;
+}
+.priyanshuIm {
+  background: linear-gradient(
+    125deg,
+    rgb(104, 109, 224),
+    rgb(13, 99, 139),
+    rgb(19, 154, 167)
+  );
+  background-size: 700%;
+  animation: bganimation 15s infinite;
+  border: 2px dotted rgb(0, 0, 0);
+  height: 250px;
+  border-radius: 200px;
+  transition: 0.5s;
+}
+@keyframes bganimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media screen and (max-width: 2020px) {
+  .resume-left-col {
+    width: 100%;
+    height: 240%;
+    background-image: url("https://cdn.wallpapersafari.com/36/58/kvxoEa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 2em;
     border: 2px solid black;
     border-radius: 2em;
   }
-  @media (max-width:1000px){
-    .resume-left-col {
-      width: 100vw;
-      height: 230vh;
-      background-image: url("https://cdn.wallpapersafari.com/36/58/kvxoEa.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-        padding: 2em;
-        border: 2px solid black;
-        border-radius: 2em;
-      }
-      
+  .resume-right-col {
+    width: 100%;
   }
-  .resume-left-col h2{
-    font-size: 50px;
-    background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(51, 0, 119));
-    -webkit-background-clip: text;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    -webkit-text-fill-color: transparent;
+
+  .resume-right-col,
+  h2,
+  h4,
+  p {
+    text-align: center;
   }
-  .resume-left-col h4 {
-    font-size: 24px;
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.733), rgb(0, 113, 128));
-    -webkit-background-clip: text;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    -webkit-text-fill-color: transparent;
+  .img {
+    width: 100%;
   }
-  .priyanshuIm {
-    background: linear-gradient(
-      125deg,
-      rgb(104, 109, 224),
-      rgb(13, 99, 139),
-      rgb(19, 154, 167)
-    );
-    background-size: 700%;
-    animation: bganimation 15s infinite;
-    border: 2px dotted rgb(0, 0, 0);
-    height: 250px;
-    border-radius: 200px;
-    transition: 0.5s;
+  .resume-left-col,
+  h2,
+  h4,
+  h3,
+  p {
+    text-align: center;
   }
-  @keyframes bganimation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+}
+@media screen and (max-width:765px){
+  .resume-right-col {
+    width: 100%;
+    margin:auto !important;
   }
-  
-  
-  
+}

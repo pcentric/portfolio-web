@@ -96,7 +96,7 @@ export default class Resume extends Component {
             <Skill skill="Other Languages" progress={85} name="85%" />
           </Cell>
           {/* Right Section */}
-          <Cell col={4}>
+          <Cell className="resume-right-col" col={4}>
             <div style={{ textAlign: "center" }}>
               <img
                 src="https://media.giphy.com/media/LnR3lnyOfT6bGBxkDP/giphy.gif"

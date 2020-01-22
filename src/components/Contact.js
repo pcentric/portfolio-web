@@ -12,7 +12,7 @@ export default class Contact extends Component {
             <h3>Priyanshu Srivastava</h3>
 
             <div className="cardBox">
-              <div className="card Priyanshu" >
+              <div className="card Priyanshu">
                 <div className="card-front">
                   <img
                     className="IMPR"
@@ -23,21 +23,38 @@ export default class Contact extends Component {
                 <div className="card-back" style={{ height: "12rem" }}>
                   <h4>
                     <p>
-                     <strong   style={{ fontSize: "25px", fontFamily: "Anton" }}> Who is Programmer :-</strong>
-                      <br /> <br /> An Organism that turns caffeine into Software.
+                      <strong style={{ fontSize: "25px", fontFamily: "Anton" }}>
+                        {" "}
+                        Who is Programmer :-
+                      </strong>
+                      <br /> <br /> An Organism that turns caffeine into
+                      Software.
                     </p>
                   </h4>
                 </div>
               </div>
             </div>
-            <p style={{fontFamily:"Audrey", width: "75%", margin: "auto", paddingTop: "12rem" }}>
-            <strong>  Hello My name is PRIYANSHU & I'm Full STACK DEVELOPER and I
-              developed many awesome things like:- Web-Application, Website,
-              Apps, Forms , Pages & many more.
-              </strong> </p>
+            <p
+              className="introduction"
+              style={{
+                fontFamily: "Audrey",
+                width: "75%",
+                margin: "auto",
+                paddingTop: "12rem"
+              }}
+            >
+              <strong>
+                {" "}
+                Hello My name is PRIYANSHU & I'm Full STACK DEVELOPER and I
+                developed many awesome things like:- Web-Application, Website,
+                Apps, Forms , Pages & many more.
+              </strong>{" "}
+            </p>
           </Cell>
           <Cell col={6}>
-          <h1 className="red-title">WHO AM <strong>‘I’</strong>?</h1>
+            <h1 className="red-title">
+              WHO AM <strong>‘I’</strong>?
+            </h1>
             <hr />
             <div className="contact-List">
               <List>
@@ -46,12 +63,15 @@ export default class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-envelope" aria-hidden="true"></i>
-                    <a
-                      style={{ color: "black" }}
-                      href="https://mail.google.com/mail/u/0/inbox"
-                    >
-                      E-Mail
-                    </a>
+                    <p>
+                      {" "}
+                      <a
+                        style={{ color: "black" }}
+                        href="https://mail.google.com/mail/u/0/inbox"
+                      >
+                        E-Mail
+                      </a>
+                    </p>
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
@@ -59,12 +79,15 @@ export default class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-linkedin" aria-hidden="true"></i>
-                    <a
-                      style={{ color: "black" }}
-                      href="https://www.linkedin.com/in/priyanshu-srivastava-450a0b190"
-                    >
-                      LinkedIn
-                    </a>
+                    <p>
+                      {" "}
+                      <a
+                        style={{ color: "black" }}
+                        href="https://www.linkedin.com/in/priyanshu-srivastava-450a0b190"
+                      >
+                        LinkedIn
+                      </a>
+                    </p>
                   </ListItemContent>
                 </ListItem>
               </List>
