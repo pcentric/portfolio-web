@@ -13,7 +13,7 @@
   justify-content: center;
   width: 80%;
   height: 550px;
-  margin-top: 18rem !important;
+  margin:15rem auto !important;
   background: white;
   background-size: 1000%;
   color: black;
@@ -173,10 +173,7 @@ p {
   p {
     text-align: center !important;
   }
-  /* contact-List,
-  i {
-    display: none !important;
-  } */
+  
   .introduction {
     font-size: 20px !important  ;
     line-height: none !important;

@@ -331,3 +331,8 @@ section {
   transition: 0.2s ease-out;
   box-shadow: 3px 4px 2px 1px rgba(0, 0, 0, 0.404);
 }
+@media screen and (max-width: 900px) {
+  .Social-medias{
+    display: none;
+  }
+}
