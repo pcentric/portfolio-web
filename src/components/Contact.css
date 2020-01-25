@@ -134,7 +134,7 @@ p {
 @media screen and (max-width: 1000px) {
   .contact-body {
     width: auto;
-    height: 120% !important;
+    height: auto ;
     background-color: #5050e2;
   min-height: 100vh;
   display: flex;
