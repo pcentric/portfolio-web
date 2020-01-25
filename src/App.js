@@ -2,6 +2,7 @@ import React, { component } from "react";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
+import "./App.css";
 function App() {
   return (
     <div className="demo-big-content">
@@ -9,53 +10,49 @@ function App() {
         <Header
           className="header-color"
           title={
-            <Link style={{ textDecoration: "none", color: "Black" }} to="/">
+            <Link style={{color:'white'}} to="/">
               Portfolio
             </Link>
           }
           scroll
+          style={{backgroundColor: "#5050e2"}}
         >
           <Navigation>
-            <Link
-              style={{ textDecoration: "none", color: "Black" }}
-              to="/Resume"
-            >
+            <Link to="/Resume">
               <strong>Resume</strong>
             </Link>
-            <Link
-              style={{ textDecoration: "none", color: "Black" }}
-              to="/Projects"
-            >
+            <Link to="/Projects">
               <strong>Projects</strong>
             </Link>
-            <Link
-              style={{ textDecoration: "none", color: "Black" }}
-              to="/Contact"
-            >
+            <Link to="/Contact">
               <strong>Contact</strong>
             </Link>
           </Navigation>
         </Header>
 
-        <Drawer  title="Menu">
-          <Navigation >
+        <Drawer title="Menu">
+          <Navigation>
             <Link to="/">
-              Home&nbsp;<i class="fa fa-home" aria-hidden="true" ></i>
+              Home&nbsp;<i class="fa fa-home" aria-hidden="true"></i>
             </Link>
             <Link to="/Resume">
-              Resume&nbsp;<i class="fa fa-file-text" aria-hidden="true" ></i>
+              Resume&nbsp;<i class="fa fa-file-text" aria-hidden="true"></i>
             </Link>
             <Link to="/Projects">
-              Projects&nbsp;<i class="fa fa-file-code-o" aria-hidden="true" ></i>
+              Projects&nbsp;<i class="fa fa-file-code-o" aria-hidden="true"></i>
             </Link>
             <Link to="/Contact">
-              Contact&nbsp;<i class="fa fa-mobile" aria-hidden="true" ></i>
+              Contact&nbsp;<i class="fa fa-mobile" aria-hidden="true"></i>
             </Link>
           </Navigation>
         </Drawer>
         <Content>
           <div className="page-content" />
           <Main />
+        <footer className="footer">
+          <a href="https://mail.google.com/mail/u/0/inbox">Priyanshu Srivastava <i class="fa fa-rocket" aria-hidden="true"></i></a>
+          <br />
+        </footer>
         </Content>
       </Layout>
     </div>

@@ -1,4 +1,4 @@
-.header-color {
+/* .header-color {
     background-color: transparent !important;
     background: none !important;
   }
@@ -80,4 +80,254 @@
  }
   }
   
-  
+   */
+.landing-grid {
+  background-color: #5050e2;
+  min-height: 100vh;
+  display: flex;
+  scroll-behavior: smooth;
+  flex-direction: column;
+}
+.Banner-text {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 80vh;
+  margin: 0px auto;
+  padding: 150px 0px;
+}
+.Banner-text h1 {
+  color: rgb(255, 255, 255);
+  font-size: 56px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",
+    "Lucida Console", Monaco, monospace;
+  font-weight: 500;
+  margin: 0px 0px 20px 3px;
+}
+.Banner-text p {
+  margin: 0px 50px 15px;
+  opacity: 0.8;
+  background: white;
+  font-size: 17px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: cursive, fantasy, "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+.Banner-text a {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  font-size: 15px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",
+    "Lucida Console", Monaco, monospace;
+  line-height: 1;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 30rem;
+  border: 4px solid black;
+  border-radius: 3px;
+  margin: 50px auto 50px;
+
+
+  background-color: rgba(28, 160, 149, 0.472);
+  padding: 1.25rem 1.75rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.4s ease-in-out;
+}
+.Banner-text a:hover {
+  color: black;
+  transition: 0.2s ease-out;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.404),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.left-side {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: 40px;
+  right: auto;
+  z-index: 10;
+  color: rgb(168, 178, 209);
+}
+.Social-medias {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.Social-medias,
+li {
+  display: list-item;
+  margin-bottom: 2px;
+  text-align: -webkit-match-parent;
+}
+
+.Social-medias,
+img {
+  width: 28px ;
+  fill: transparent;
+  margin: 30px auto 0rem;
+}
+.Social-medias::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100px;
+  background-color: rgb(168, 178, 209);
+  margin: 0px auto;
+  cursor: all-scroll;
+}
+.Social-medias li:last-of-type {
+  margin-bottom: 30px;
+}
+
+section {
+  padding: 6rem;
+  border-bottom: 1px solid #555;
+  background-color: #fff;
+  border: 2px solid black;
+  color: #000;
+}
+.content--title {
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  font-weight: 40px;
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+.content--skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.content--skills i {
+  font-size: 30px;
+  margin: 0 1rem;
+  color: rgba(0, 26, 255, 0.623);
+}
+
+.content--skills li {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  flex-basis: 240px;
+  border: 4px solid black;
+  border-radius: 0.5rem;
+  margin: 2rem;
+  transition: all 0.6s ease;
+}
+.content--skills li:hover {
+  background-color: aquamarine;
+  color: #000;
+  box-shadow: 10px 10px 8px 0 rgb(0, 0, 0);
+}
+
+.why-me h1 {
+  font-weight: bold;
+  text-align: center;
+  font-weight: 40px;
+  font-size: 2rem;
+  margin: 4rem auto;
+}
+.why-me h2 {
+  font-weight: bold;
+  text-align: center;
+  font-weight: 4px;
+  font-size: 2rem;
+  margin: 1rem auto;
+}
+
+.why-me ul {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.why-me li {
+  font-size: 1.5rem;
+  line-height: 3;
+  border: 4px solid #000;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+  margin: 2rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+  list-style-type: none;
+  width: 260px;
+}
+.why-me li:hover {
+  box-shadow: 10px 10px 8px 0 rgb(0, 0, 0);
+}
+.step-title {
+  justify-content: center;
+  align-items: center;
+}
+.why-me i {
+  font-size: 30px;
+  margin: 0 2rem;
+  color: rgba(0, 26, 255, 0.623);
+}
+.why-me li p {
+  border-top: 1px solid #000;
+  padding: 0.5rem 0.75rem;
+  font-size: 1.1rem;
+  height: 200px;
+  text-align: left;
+}
+.Banner-text-1 {
+  max-width: 100%;
+  padding: 2rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 50vh;
+  background-color: rgb(255, 255, 255);
+  margin: 200px auto;
+  border: 4px solid black;
+  padding: 150px 10px 0;
+}
+.Banner-text-1 h1 {
+  color: rgb(7, 7, 7);
+  font-size: 56px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",
+    "Lucida Console", Monaco, monospace;
+  font-weight: 500;
+  margin: 0 auto 50px;
+}
+.Banner-text-1 p {
+  margin: 0px 90px 15px;
+  opacity: 0.8;
+  background: rgb(0, 0, 0);
+  font-size: 20px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: cursive, fantasy, "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+.Banner-text-1 a {
+  color: rgb(0, 0, 0);
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",
+    "Lucida Console", Monaco, monospace;
+  line-height: 1;
+  cursor: pointer;
+  border: 4px solid black;
+  margin: 50px auto 50px;
+  background-color: rgb(231, 240, 239);
+  padding: 1.25rem 1.75rem;
+  transition: all 0.4s ease-in-out;
+}
+.Banner-text-1 a:hover {
+  color: black;
+  transition: 0.2s ease-out;
+  box-shadow: 3px 4px 2px 1px rgba(0, 0, 0, 0.404);
+}

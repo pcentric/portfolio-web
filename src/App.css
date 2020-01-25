@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: hsl(240, 62%, 41%);
+  color: #000000;
+  text-align: center;
+  height: auto;
+  min-height: 70px;
+  padding: 15px;
+}
+.footer a{
+    color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif monospace;
+  line-height: 1;-ms-scroll-snap-points-x:;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all 0.4s ease-in-out;
+}
+.footer a:hover {
+  color: rgba(145, 216, 216, 0.76);
+  transition: 0.2s ease-out;
+}

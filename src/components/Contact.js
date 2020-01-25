@@ -78,7 +78,7 @@ export default class Contact extends Component {
                   <ListItemContent
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
-                    <i className="fa fa-linkedin" aria-hidden="true"></i>
+                    <i class="fab fa-linkedin-in"></i>
                     <p>
                       {" "}
                       <a
