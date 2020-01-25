@@ -34,7 +34,13 @@ export default class LandingPage extends Component {
               through your requirement and could build as per your requirement.I
               can use Nodejs/ES6 to build your API Service.
             </p>
-            <a href="https://mail.google.com/mail/u/0/inbox">Let's Talk</a>
+            <a
+              onClick={() => {
+                window.location = "/Projects";
+              }}
+            >
+              My Work
+            </a>
           </div>
           <div orientation="left" class="left-side">
             <ul className="Social-medias">
