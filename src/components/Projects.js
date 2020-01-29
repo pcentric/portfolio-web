@@ -175,6 +175,41 @@ export default class Projects extends Component {
                 </Button>
               </CardActions>
             </Card>
+            {/* Project 4 */}
+            <Card className="card-4" shadow={10}>
+              <CardTitle
+                style={{
+                  color: "black ",
+                  height: "176px",
+                  background:
+                    "url(https://i.ya-webdesign.com/images/free-travel-icons-png.png) center / cover"
+                }}
+              >
+                <h6 style={{ paddingTop: "14em" }}> Travello Website</h6>
+              </CardTitle>
+              <CardText style={{ paddingTop: "4em" }}>
+                <strong>
+                  Travello is a global travel company and social network that's
+                  available on mobile platforms. This app is the clone of the
+                  website includes a way for travellers to share their
+                  experience wherever they go and easily connect with other
+                  travellers wherever they go. The company is based in
+                  Queensland, Australia and was founded in 2014 by Mark Cantoni
+                  and Ryan Hanly.
+                </strong>
+              </CardText>
+              <CardActions border>
+                <Button
+                  colored="Github"
+                  href="https://github.com/pcentric/travello "
+                >
+                  GitHub
+                </Button>
+              </CardActions>
+              <CardMenu style={{ color: "blue" }}></CardMenu>
+            </Card>
+            {/* Project 5 */}
+          
           </div>
         </div>
       );

@@ -4,6 +4,7 @@ import LandingPage from "./LandingPage";
 import Resume from "./Resume";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Skill from "./Skill"
 
 const Main = () => (
   <Switch>
@@ -11,6 +12,8 @@ const Main = () => (
     <Route exact path="/Resume" component={Resume} />
     <Route exact path="/Projects" component={Projects} />
     <Route exact path="/Contact" component={Contact} />
+    <Route exact path="/Skill" component={Skill} />
+
   </Switch>
 );
 export default Main;

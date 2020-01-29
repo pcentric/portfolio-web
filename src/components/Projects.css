@@ -1,32 +1,34 @@
-
 .projects-grid-2 {
   padding-left: 10rem;
 }
-.background-2{
+.background-2 {
   min-height: 100vh;
-  display: flex;
   scroll-behavior: smooth;
-  flex-direction: column;
 }
 .card-1,
 .card-2,
-.card-3 {
+.card-3,
+.card-4 {
   width: 30rem !important;
   float: left;
-  height:auto !important;
+  height: auto !important;
   border: 4px solid black;
   border-radius: 0.9rem !important;
   margin-top: 5rem !important;
   margin-left: 5rem !important;
-  box-shadow: 1px 1px 20px -5px #0000009a !important;
+  box-shadow: 1px 1px 30px -5px #1d38919a !important;
 }
+
+
+
 @media screen and (max-width: 1000px) {
   .projects-grid-2 {
     margin: auto !important;
   }
   .card-1,
   .card-2,
-  .card-3 {
+  .card-3,
+  .card-44 {
     width: 68% !important;
     height: 30% !important;
     border-radius: 0.9rem !important;
@@ -40,8 +42,9 @@
   }
   .card-1,
   .card-2,
-  .card-3 {
-    width:auto!important;
+  .card-3,
+  .card-44 {
+    width: auto !important;
     height: auto !important;
     border-radius: 0.9rem !important;
     box-shadow: 1px 1px 20px -5px #0000009a !important;

@@ -58,6 +58,19 @@ export default class LandingPage extends Component {
                 </a>
               </li>
               <li>
+                <a
+                  href="https://www.instagram.com/priyanshu_srivastava_1/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="https://image.flaticon.com/icons/png/512/87/87390.png"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  />
+                </a>
+              </li>
+              <li>
                 {" "}
                 <a
                   href="https://www.linkedin.com/in/priyanshu-srivastava-450a0b190/"

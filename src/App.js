@@ -10,12 +10,12 @@ function App() {
         <Header
           className="header-color"
           title={
-            <Link style={{color:'white'}} to="/">
+            <Link style={{ color: "white" }} to="/">
               Portfolio
             </Link>
           }
           scroll
-          style={{backgroundColor: "#5050e2"}}
+          style={{ backgroundColor: "#5050e2" }}
         >
           <Navigation>
             <Link to="/Resume">
@@ -26,6 +26,9 @@ function App() {
             </Link>
             <Link to="/Contact">
               <strong>Contact</strong>
+            </Link>
+            <Link to="/Skill">
+              <strong>Skills</strong>
             </Link>
           </Navigation>
         </Header>
@@ -44,15 +47,21 @@ function App() {
             <Link to="/Contact">
               Contact&nbsp;<i class="fa fa-mobile" aria-hidden="true"></i>
             </Link>
+            <Link to="/Skill">
+              Skills &nbsp;<i class="fas fa-blender-phone"></i>
+            </Link>
           </Navigation>
         </Drawer>
         <Content>
           <div className="page-content" />
           <Main />
-        <footer className="footer">
-          <a href="https://mail.google.com/mail/u/0/inbox">Priyanshu Srivastava <i class="fa fa-rocket" aria-hidden="true"></i></a>
-          <br />
-        </footer>
+          <footer className="footer">
+            <a href="https://mail.google.com/mail/u/0/inbox">
+              Priyanshu Srivastava{" "}
+              <i class="fa fa-rocket" aria-hidden="true"></i>
+            </a>
+            <br />
+          </footer>
         </Content>
       </Layout>
     </div>
