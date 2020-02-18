@@ -30,7 +30,7 @@ export default class LandingPage extends Component {
               It's Priyanshu here I develop apps and I write code because I love
               to create something new, useful and powerful from scratch. I am
               developing mobile apps / web apps for Indian Unicorn Startups from
-              last 5 years. I also have clients from US and Australia. I've gone
+              last 3 years. I also have clients from US and Australia. I've gone
               through your requirement and could build as per your requirement.I
               can use Nodejs/ES6 to build your API Service.
             </p>
