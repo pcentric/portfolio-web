@@ -1,15 +1,16 @@
 import React, { Component } from "react";
-import "../components/Skill.css"
+import "../components/Skill.css";
 export default class Skill extends Component {
   render() {
     return (
       <div>
         <center>
           <div id="SkillBox">
-            <center>
+            <center className="SkillBoxh1">
               <p>My Skills</p>
             </center>
             <img
+              className="imgSkill"
               src="https://image.flaticon.com/sprites/new_packs/111826-people-skills.png"
               alt="Skill"
             />

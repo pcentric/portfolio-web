@@ -1,4 +1,4 @@
-.projects-grid-2 {
+/* .projects-grid-2 {
   padding-left: 10rem;
 }
 .background-2 {
@@ -9,9 +9,10 @@
 .card-2,
 .card-3,
 .card-4 {
-  width: 30rem !important;
   float: left;
-  height: auto !important;
+  width: 50%;
+  height: 30% !important;
+  padding: 0 10px;
   border: 4px solid black;
   border-radius: 0.9rem !important;
   margin-top: 5rem !important;
@@ -19,34 +20,106 @@
   box-shadow: 1px 1px 30px -5px #1d38919a !important;
 }
 
-
-
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   .projects-grid-2 {
-    margin: auto !important;
+    padding-left: none;
   }
   .card-1,
   .card-2,
   .card-3,
-  .card-44 {
-    width: 68% !important;
+  .card-4 {
+    width: 165% !important;
     height: 30% !important;
     border-radius: 0.9rem !important;
-    margin-left: -9rem !important;
+    margin-left: -10.5rem !important;
+    float: none;
     box-shadow: 1px 1px 20px -5px #0000009a !important;
   }
 }
-@media screen and (max-width: 880px) {
+/* @media screen and (max-width: 880px) {
   .projects-grid-2 {
     margin: auto !important;
   }
   .card-1,
   .card-2,
   .card-3,
-  .card-44 {
-    width: auto !important;
+  .card-4 {
+    width: 100% !important;
     height: auto !important;
+    float: none;
     border-radius: 0.9rem !important;
     box-shadow: 1px 1px 20px -5px #0000009a !important;
   }
+} */
+.mdl-grid{
+  padding: 30px !important;
+}
+.card-lesson {
+  margin: 10px;
+  min-width: 200px;
+  min-height: 100px;
+}
+.mdl-card__actions {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  height:150px;
+}
+.mdl-card__title {
+  align-items: flex-start;
+}
+.mdl-card {
+  border: 3px solid black;
+  background-image: url("https://media.istockphoto.com/photos/abstract-curved-particle-blue-background-picture-id1076029812?k=6&m=1076029812&s=612x612&w=0&h=NqD6dyKjFMldBfVSFWgeKKYg5gbWooB78_B61ksp-XE=") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.849) !important;
+  transition: 0.3s all !important;
+  text-align: center !important;
+}
+.mdl-card:hover {
+  box-shadow: none !important;
+}
+
+.mdl-button {
+  color: whitesmoke !important;
+  background-color: black !important;
+  transition: 0.3s all !important;
+  box-shadow: 2px 2px 4px 0 rgba(255, 255, 255, 0.849) !important;
+  width: 200px !important;
+}
+.mdl-button:hover {
+  box-shadow: none !important;
+}
+.mdl-card__title-text {
+  background: -webkit-linear-gradient(
+    rgba(246, 244, 244, 0.733),
+    rgb(255, 255, 255)
+  );
+  -webkit-background-clip: text;
+  font-family: "Montserrat Alternates", sans-serif;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 4px 4px 4px #aaa !important;
+}
+.mdl-card__supporting-text {
+  background: -webkit-linear-gradient(
+    rgba(255, 255, 255, 0.733),
+    rgb(255, 255, 255)
+  );
+
+  -webkit-background-clip: text;
+  font-family: "Montserrat Alternates", sans-serif;
+  -webkit-text-fill-color: transparent;
+  width: 100% !important;
+}
+.mdl-card__actions {
+  display: grid !important;
+
+  place-content: center !important;
+}
+.mdl-card__title,
+.mdl-card__supporting-text,
+.mdl-card__actions,
+.mdl-card__actions > .mdl-button {
+  color: #fff;
 }

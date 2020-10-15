@@ -10,7 +10,10 @@ function App() {
         <Header
           className="header-color"
           title={
-            <Link style={{ color: "white" }} to="/">
+            <Link
+              style={{ color: "white", fontFamily: "Montserrat Subrayada" }}
+              to="/"
+            >
               Portfolio
             </Link>
           }
@@ -56,7 +59,7 @@ function App() {
           <div className="page-content" />
           <Main />
           <footer className="footer">
-            <a href="https://mail.google.com/mail/u/0/inbox">
+            <a href="https://github.com/ps1619">
               Priyanshu Srivastava{" "}
               <i class="fa fa-rocket" aria-hidden="true"></i>
             </a>

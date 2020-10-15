@@ -1,6 +1,6 @@
 /* Contacts CSS */
 @import url("https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap");
 .contact-body {
   background-color: #5050e2;
   min-height: 100vh;
@@ -10,10 +10,10 @@
 }
 .contact-grid {
   text-align: center;
-  justify-content: center;
-  width: 80%;
-  height: 550px;
-  margin:15rem auto !important;
+
+  width: 70%;
+  height: max-content;
+  margin: 7rem auto !important;
   background: white;
   background-size: 1000%;
   color: black;
@@ -56,33 +56,28 @@
 }
 .card-front {
   font-size: 40px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
+  display: grid !important;
+  place-content: center !important;
 }
-.card-front img{
-  width:auto;
+.IMPR {
+  width: auto;
+  margin-left: 90px;
 }
 .card-back {
-  font-family: "Audrey", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 30px;
 }
 h3 {
   background: -webkit-linear-gradient(rgba(3, 9, 92, 0.733), rgb(0, 113, 128));
   -webkit-background-clip: text;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", "Franklin Gothic Medium",
-    "Arial Narrow", Arial, sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   -webkit-text-fill-color: transparent;
 }
 .card-back,
 p {
   background: -webkit-linear-gradient(rgba(3, 9, 92, 0.733), rgb(0, 113, 128));
   -webkit-background-clip: text;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", "Franklin Gothic Medium",
-    "Arial Narrow", Arial, sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   -webkit-text-fill-color: transparent;
 }
 .cardBox:hover .card {
@@ -104,28 +99,42 @@ p {
 }
 .contact-List i {
   font-size: 60px;
-  padding-right: 10rem;
+  /* padding-right: 10rem; */
+  display: flex;
+  float: left;
 }
 .contact-List p {
   font-size: 30px;
-  padding-left: 5rem !important;
   line-height: none;
+  margin-left: 90px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 .contact-List {
-  margin-top: 4rem !important;
+  margin-top: 3rem !important;
   margin: auto;
   width: 80% !important;
   border: 3px solid rgb(102, 5, 94);
   border-radius: 32px;
   text-decoration: underline;
-  background-image: url("https://www.vox360.com/wp-content/uploads/2019/05/Website-Background-Web.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 3rem !important;
+  display: grid;
+  place-content: center;
+  padding-bottom: auto !important;
+  z-index: 10;
 }
 .introduction {
   font-size: 20px !important  ;
-  line-height: none !important;
+  line-height: 30px;
+  font-family: "Montserrat Alternates", sans-serif;
+  padding-top: 14rem;
+  width: 75%;
+  text-transform: lowercase;
+}
+.introduction strong {
+  font-family: "Montserrat Alternates", sans-serif;
+  line-height: 40px;
+  text-transform: uppercase;
 }
 .no {
   cursor: pointer;
@@ -134,17 +143,16 @@ p {
 @media screen and (max-width: 1000px) {
   .contact-body {
     width: auto;
-    height: auto ;
+    height: auto;
     background-color: #5050e2;
-  min-height: 100vh;
-  display: flex;
-  scroll-behavior: smooth;
-  flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+    scroll-behavior: smooth;
+    flex-direction: column;
   }
   .contact-grid {
     width: 90%;
     margin-top: 10rem !important;
-
     height: auto !important;
   }
 
@@ -156,27 +164,41 @@ p {
   }
   .cardBox {
     margin: auto;
-    padding-left: 6rem ;
+    padding-left: 6rem;
     padding-top: 3rem;
   }
   .card-front {
-    background-image: url("https://miraculoussoft.com/wp-content/uploads/2019/09/wp-programmer.gif") !important;
-    background-repeat: no-repeat;
-    background-size: cover !important;
+    display: none;
+  }
+  .card-back {
+    display: none;
   }
   .Priyanshu {
-   width: auto;
-   height: auto !important;
+    width: auto;
+    height: auto !important;
   }
-  
+  .contact-List {
+    height: max-content;
+    border: none;
+  }
+
   .contact-List,
   p {
     text-align: center !important;
   }
-  
+  .cardBox {
+    display: none;
+  }
   .introduction {
     font-size: 20px !important  ;
     line-height: none !important;
+    font-family: "Montserrat Alternates", sans-serif;
+    margin: auto;
+    padding-top: 2rem;
+    width: auto;
+  }
+  .mt5 {
+    margin-top: 35px;
   }
 }
 @media screen and (min-width: 1500px) {

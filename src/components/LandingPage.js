@@ -10,10 +10,10 @@ export default class LandingPage extends Component {
         <div className="landing-grid">
           <div className="Banner-text">
             <h1>
-              Hello Priyanshu here.{" "}
+              Hello Priyanshu here.
               <i
                 style={{ color: "black" }}
-                class="fa fa-code"
+                class="animation_icon fa fa-code"
                 aria-hidden="true"
               ></i>
             </h1>
@@ -30,9 +30,10 @@ export default class LandingPage extends Component {
               It's Priyanshu here I develop apps and I write code because I love
               to create something new, useful and powerful from scratch. I am
               developing mobile apps / web apps for Indian Unicorn Startups from
-              last 3 years. I also have clients from US and Australia. I've gone
-              through your requirement and could build as per your requirement.I
-              can use Nodejs/ES6 to build your API Service.
+              last 5 years. I also have clients from US and Australia.I build as
+              per your requirement, by going through the most tiniest and subtle
+              details of your need. I use servers like Nodejs, ES6 etc while
+              buidling API services for you.
             </p>
             <a
               onClick={() => {
@@ -46,7 +47,7 @@ export default class LandingPage extends Component {
             <ul className="Social-medias">
               <li>
                 <a
-                  href="https://github.com/pcentric"
+                  href="https://github.com/ps1619"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -59,12 +60,12 @@ export default class LandingPage extends Component {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/priyanshu_srivastava_1/"
+                  href="https://www.upwork.com/freelancers/~01d3fc53d25908fd4c"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="https://image.flaticon.com/icons/png/512/87/87390.png"
+                    src="https://www.shareicon.net/data/2017/02/24/879425_upwork_512x512.png"
                     target="_blank"
                     rel="noopener noreferrer"
                   />
@@ -114,7 +115,7 @@ export default class LandingPage extends Component {
               </li>
             </ul>
           </div>
-
+          {/* Component skills  */}
           <section class="content--skills" id="skills">
             <h2 class="content--skills--title content--title wow fadeIn">
               Any skills? <i class="fa fa-terminal" aria-hidden="true"></i>
@@ -183,6 +184,7 @@ export default class LandingPage extends Component {
               </li>
             </ul>
           </section>
+
           <div className="why-me">
             <h1>How I Develop Website ?</h1>
             <ul>
@@ -238,12 +240,12 @@ export default class LandingPage extends Component {
           <div className="Banner-text-1">
             <h1>Get In Touch</h1>
 
-            <p>
+            <p className="text-center">
               Although I'm currently looking for freelance opportunities, my
               inbox is always open. Whether for a potential project or just to
               say hi, I'll try my best to answer your email!
             </p>
-            <a href="https://mail.google.com/mail/u/0/inbox">Hire Me</a>
+            <a href="mailto: priyanshu.s1619@gmail.com">Hire Me</a>
           </div>
         </div>
       </div>

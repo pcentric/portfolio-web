@@ -7,13 +7,18 @@
 body {
   background: #e9e5e2a6;
 }
-
+#SkillBox > center > p {
+  font-size: 50px;
+}
+.SkillBoxh1 {
+  display: none;
+}
 #SkillBox {
   font-size: 20px;
   font-family: "Indie Flower", cursive;
   width: 95%;
   height: auto;
-  margin: 140px auto;
+  margin: 60px auto;
   background-color: #fff;
   /* //border: 1px solid #cdcdcd; */
   padding: 10px;
@@ -22,7 +27,8 @@ body {
   -webkit-border-radius: 20px;
   -ms-border-radius: 20px;
   -moz-border-radius: 20px;
-  box-shadow: 1px 5px 10px 0px rgba(0, 0, 0, 0.5), 1px 5px 10px 1px rgba(15, 49, 160, 0.705);
+  box-shadow: 1px 5px 10px 0px rgba(0, 0, 0, 0.5),
+    1px 5px 10px 1px rgba(15, 49, 160, 0.705);
 }
 #SkillBox img {
   width: 20%;
@@ -478,4 +484,20 @@ body {
   color: #fff;
   /* //font-family: Lato-Regular, sans-serif; */
   font-size: 18px;
+}
+
+@media screen and (max-width: 1000px) {
+  .imgSkill {
+    display: none;
+  }
+
+  #SkillBox > center > p {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .SkillBoxh1 {
+    display: grid;
+    height: 15vh;
+    place-content: center;
+  }
 }

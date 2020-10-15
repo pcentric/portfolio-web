@@ -11,16 +11,33 @@
   min-height: 70px;
   padding: 15px;
 }
-.footer a{
-    color: rgb(255, 255, 255);
+.footer a {
+  color: rgb(255, 255, 255);
   font-size: 15px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif monospace;
-  line-height: 1;-ms-scroll-snap-points-x:;
+  font-family: "Montserrat Alternates", sans-serif;
+  line-height: 1;
+  -ms-scroll-snap-points-x: ;
   cursor: pointer;
   border-radius: 3px;
   transition: all 0.4s ease-in-out;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 .footer a:hover {
   color: rgba(145, 216, 216, 0.76);
   transition: 0.2s ease-out;
+}
+
+@media screen and (max-width: 1024px) {
+  .mdl-layout__drawer-button {
+    margin: 4px;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(175, 162, 162);
+    border-radius: 50px;
+    animation: shine;
+  }
+  .mdl-layout.has-scrolling-header .mdl-layout__content {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
 }
