@@ -24,7 +24,7 @@ export default class Projects extends Component {
           <div class="mdl-grid">
             <div class=" mdl-cell mdl-cell--4-col card-lesson mdl-card  mdl-shadow--2dp">
               <div class="mdl-card__title">
-                <h2 class="mdl-card__title-text">Meditation Website Demo</h2>
+                <h2 class="mdl-card__title-text">Meditation Website Demo.</h2>
               </div>
               <div class="mdl-card__supporting-text">
                 Meditation is an age-old practice that has renewed itself in
@@ -51,7 +51,7 @@ export default class Projects extends Component {
             </div>
             <div class=" mdl-cell mdl-cell--4-col card-lesson mdl-card  mdl-shadow--2dp">
               <div class="mdl-card__title">
-                <h2 class="mdl-card__title-text">Rock-Paper-Scissor Game</h2>
+                <h2 class="mdl-card__title-text">Rock-Paper-Scissor Game.</h2>
               </div>
               <div class="mdl-card__supporting-text">
                 On your first throw against an inexperienced male opponent, the
@@ -105,7 +105,7 @@ export default class Projects extends Component {
             </div>
             <div class=" mdl-cell mdl-cell--4-col card-lesson mdl-card  mdl-shadow--2dp">
               <div class="mdl-card__title">
-                <h2 class="mdl-card__title-text">CraigList Code Website</h2>
+                <h2 class="mdl-card__title-text">CraigList Code Website.</h2>
               </div>
               <div class="mdl-card__supporting-text">
                 CodeList is an Indian classified advertisements clone website of
@@ -131,7 +131,7 @@ export default class Projects extends Component {
             </div>
             <div class=" mdl-cell mdl-cell--4-col card-lesson mdl-card  mdl-shadow--2dp">
               <div class="mdl-card__title">
-                <h2 class="mdl-card__title-text">Travelling Website </h2>
+                <h2 class="mdl-card__title-text">Travelling Website. </h2>
               </div>
               <div class="mdl-card__supporting-text">
                 Travello is a global travel company and social network that's

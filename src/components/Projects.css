@@ -1,7 +1,7 @@
-
+/* 
 .mdl-grid{
   padding: 30px !important;
-}
+} */
 .card-lesson {
   margin: 10px;
   min-width: 200px;
@@ -48,6 +48,7 @@
   font-family: "Montserrat Alternates", sans-serif;
   -webkit-text-fill-color: transparent;
   text-shadow: 4px 4px 4px #aaa !important;
+  width: 100%;
 }
 .mdl-card__supporting-text {
   background: -webkit-linear-gradient(
