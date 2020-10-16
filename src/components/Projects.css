@@ -1,4 +1,7 @@
 
+.mdl-grid{
+  padding: 30px !important;
+}
 .card-lesson {
   margin: 10px;
   min-width: 200px;
@@ -15,7 +18,7 @@
 }
 .mdl-card {
   border: 3px solid black;
-  background-image: url("https://media.istockphoto.com/photos/abstract-curved-particle-blue-background-picture-id1076029812?k=6&m=1076029812&s=612x612&w=0&h=NqD6dyKjFMldBfVSFWgeKKYg5gbWooB78_B61ksp-XE=") !important;
+  background-image: url("https://designshack.net/wp-content/uploads/Slate-Texture-BW-Background.jpg") !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.849) !important;
