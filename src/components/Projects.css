@@ -1,10 +1,8 @@
-/* 
+
 .mdl-grid{
   padding: 30px !important;
-} */
+}
 .card-lesson {
-  margin: 10px;
-  min-width: 200px;
   min-height: 100px;
 }
 .mdl-card__actions {
@@ -18,7 +16,9 @@
 }
 .mdl-card {
   border: 3px solid black;
-  background-image: url("https://newevolutiondesigns.com/images/freebies/black-wallpaper-8.jpg") !important;
+  background-image: url("https://www.wallpapertip.com/wmimgs/84-843418_background-black-darkblue-light-textures-texture-download-background.jpg") !important;
+  max-width: 100% !important;
+  height: auto !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.849) !important;
